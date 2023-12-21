@@ -18,6 +18,15 @@ Introducing our Kick View Bot, a powerful tool designed to instantly boost your 
 
 - **Dockerized System**: Our solution is containerized for easy deployment and scalability across various environments.
 
+### **Pricing:**
+We offer two pricing options to cater to your needs:
+
+1. **Source Code**: If you prefer full control and customization, we provide the source code for a one-time purchase. You can integrate it and generate views as per your requirements.
+
+2. **Monthly API Access (Up to 100,000 viewers)**: For those who require a substantial number of views, we offer a monthly subscription plan with API access. This option allows you to scale your viewership as needed.
+
+Please note that the pricing for each option varies, and it is determined based on your specific requirements. Serious inquiries only, as the source code and large viewer packages come with a significant investment.
+
 ### **Contact Information:**
 For more details or to make a purchase, please contact us on Discord.
 
