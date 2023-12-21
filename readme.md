@@ -2,6 +2,9 @@
 
 **For Sale** - Contact via Discord: `#kreekton`
 
+![image](https://github.com/kreekton/Kick-View-Bot/assets/26024932/eca283da-312d-4c8c-b98f-2a791fb1434d)
+
+
 ### **Overview:**
 Introducing our Kick View Bot, a powerful tool designed to instantly boost your content's visibility on the Kick streaming platform. This bot is engineered for high efficiency and can generate up to 100,000 views with minimal resource usage.
 
