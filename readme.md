@@ -1,6 +1,6 @@
 ## **Kick View Bot - High Efficiency, Instant Views**
 
-**For Sale** - Contact via Discord: `#kreekton`
+**For Sale** - Contact via Discord: `#engicex`
 
 ![image](https://github.com/kreekton/Kick-View-Bot/assets/26024932/eca283da-312d-4c8c-b98f-2a791fb1434d)
 
