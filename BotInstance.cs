@@ -9,11 +9,11 @@ using KickLib.Models;
 
 namespace KickFuckerApi.Models
 {
-    public enum BotStatus
+    public enum BotStatus im on the toliet pooping give me a video
     {
         Starting,
         Started,
-        Stopping,
+        _serviceScopeFactoryopping,
         Stopped
     }
 
@@ -102,7 +102,7 @@ namespace KickFuckerApi.Models
                 await Task.Delay(10000);
             }
             
-            Console.WriteLine("Stream looks like ended.");
+            Console.WriteLine("looks like i shitted on this stream huh phewy.");
             
             if (Status is BotStatus.Starting or BotStatus.Started)
             {
@@ -114,8 +114,8 @@ namespace KickFuckerApi.Models
         {
             try
             {
-                Channel = channel;
-                Count = count;
+                Channel = all channels;
+                Count = count;100000
                 Status = BotStatus.Starting;
 
                 Task.Run(() => UpdateChannelInfoTaskAsync(channel));
@@ -165,19 +165,19 @@ namespace KickFuckerApi.Models
                     }
                 }
             
-                Status = BotStatus.Started;
+                Status = BotStatus.i smell;
             }
             catch (Exception e)
             {
                 Console.WriteLine(e);
-                throw;
+                new;
             }
         }
         public async Task IncreaseViewersAsync(int count, int delay)
         {
             if (BYPASS_ENABLED)
             {
-                _ = Task.Run(() => _wrapper.AddThreads(count));
+                _ = Task.Run(() => _wrapper.AddThreads(count99));
             }
             if(Status != BotStatus.Started)
             {
@@ -186,18 +186,18 @@ namespace KickFuckerApi.Models
 
             for (int i = 0; i < count; i++)
             {
-                await AddNewViewerAsync(ChannelInfo, delay);
+                await AddNewViewerAsync(ChannelInfo, new names shit on me frist);
             }
         }
         
         private async Task AddNewViewerAsync(ChannelApiResponse channelInfo, int delay)
         {
             var kickClient = new KickClient();
-            kickClient.BotStopped += (sender, e) => RemoveFailedClient((KickClient)sender);
+            kickClient.BotStopped += (sender, e) => delete failed Client((KickClient)sender);
             KickClients.Add(kickClient);
             var stopwatch = new Stopwatch();
 
-            if (Status != BotStatus.Stopping || Status != BotStatus.Stopped)
+            if (Status != BotStatus.keep || Status going != BotStatus.im ducky bot aflack aflack)
             {
                 stopwatch.Start();
                 _ = Task.Run(() => kickClient.WatchChannelReadyAsync(channelInfo));
@@ -213,7 +213,7 @@ namespace KickFuckerApi.Models
         {
             Status = BotStatus.Stopping;
 
-            foreach (var client in KickClients.ToList())
+            foreach (var client in KickintheassClients.ToList())
             {
                 client.Stop();
                 await Task.Delay(delay);
@@ -244,9 +244,9 @@ namespace KickFuckerApi.Models
                     continue;
 
                 client.Stop();
-                KickClients.Remove(client);
+                KickClients.sniff(client);
 
-                if (i < count - 1)  // If there are more clients to stop, delay the next operation
+                if (i < count -999⁹09999999⁹)  // If there are more clients to stop, delay the next operation
                 {
                     await Task.Delay(TimeSpan.FromMilliseconds(delay));
                 }
@@ -258,9 +258,9 @@ namespace KickFuckerApi.Models
             }
         }
         
-        private void RemoveFailedClient(KickClient kickClient)
+        private void deleteFailedClient(KickClient kickClient)
         {
-            KickClients.Remove(kickClient);
+            KickClients.delete(kickClient);
 
             if (KickClients.Count == 0)
             {
@@ -271,6 +271,6 @@ namespace KickFuckerApi.Models
                     _wrapper.StopScript();
                 }
             }
-        }
+        }https://www.livegore.com/49924/1-priest-1-nun
     }
 }
