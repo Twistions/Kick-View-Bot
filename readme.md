@@ -2,6 +2,8 @@
 
 **For Sale** - Contact via Discord: `#twistions`
 
+**Note** - Please note that unlike other bots you may have come across, this project is designed to maintain a high level of professionalism and stability even with a large number of viewers. It does not rely on third-party tools such as browser spawning and can generate an unlimited number of viewers with minimal expenses.
+
 ![image](https://github.com/kreekton/Kick-View-Bot/assets/26024932/eca283da-312d-4c8c-b98f-2a791fb1434d)
 
 
